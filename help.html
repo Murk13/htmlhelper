@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>СПАСИТЕ</title>
+</head>
+<body>
+    <h1> Отправка заявки на конференцию </h1>
+    <h2> Основные данные </h2>
+    <form name="test" method="post" action="input1.php">
+  <p><b>*Фамилия, имя, отчествo:</b><br>
+   <input type="text" size="40">
+  </p>
+  <p><b>Дата рождения: </b><br>
+  <form action="handler.php">
+   <p><input type=search placeholder="дд.мм.гггг">
+   </p>
+   <p><b>Пол:</b></p>
+    <input type="radio" name="answer" value="a1">мужской
+  	<input type="radio" name="answer" value="a2">женский
+  </p>
+  <h3> Данные для создания личного кабинета </h3>
+  <p><b>*Адрес электронной почты:</b><br>
+   <input type="text" size="40">
+    <p><b>*Пароль для создания личного кабинета:</b><br>
+   <input type="text" size="40">
+   <p><b>*Подтверждение пароля:</b><br>
+   <input type="text" size="40">
+  <h4> Материалы для конференции </h4>
+  <p><b>*Тема доклада:</b><br>
+   <input type="text" size="40">
+   <p><b>*Тезисы доклада(не более 1000 символов):</b><Br>
+   <textarea name="comment" cols="40" rows="3"></textarea></p>
+   <p><b>Файл презентации:</b><br>
+   <label for="file"></label>
+   <input type="file" id="file" name="file" multiple>
+ 	 <p><b>Дополнительные опции</b><Br>
+   <input type="checkbox" name="options" value="b1"> Проживание в отеле<Br>
+   <input type="checkbox" name="options" value="b2"> Завтрак<Br>
+   <input type="checkbox" name="options" value="b3"> Обед<Br>
+   <input type="checkbox" name="options" value="b4"> Ужин<Br>
+   <hr>
+    <p><input type="submit"></p>
+   <hr>
+   <p>*Поля, отмеченные звездочкой, являются обязательными для заполнения<br></p>
+</body>
+</html>
